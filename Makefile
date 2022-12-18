@@ -1,4 +1,4 @@
-all: main.cpp myfunc.cpp myfunc.hpp
+all:
 	cd app/
 	g++ *cpp *hpp -o out
 
