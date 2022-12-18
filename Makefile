@@ -1,8 +1,5 @@
 all:
-	ls -al
-	cd app/
-	ls -al
+	g++ *cpp *hpp -o out
 
 clean:
-	cd app/
 	rm out
