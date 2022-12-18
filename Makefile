@@ -1,7 +1,7 @@
 all: main.cpp myfunc.cpp myfunc.hpp
-    cd app/
+	cd app/
 	g++ *cpp *hpp -o out
 
 clean:
-    cd app/
+	cd app/
 	rm out
